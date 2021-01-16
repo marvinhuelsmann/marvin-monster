@@ -1,0 +1,28 @@
+.white-card  {
+  background-color: white;
+  height: 840px;
+}
+
+.blue-card {
+  background: linear-gradient(to bottom right, #ddd1f5, #9ab4e7, #c196b3);
+  border-radius: 0 0 920% 210%/50% 35% 92% 51%;
+  height: 500px;
+}
+
+.gray-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+
+.green-shadow {
+  filter: drop-shadow(0 0 70px #395f35);
+}
+
+.gray-shadow {
+  filter: drop-shadow(0 0 90px #ffffff);
+}
+
+.white-shadow {
+  filter: drop-shadow(0 0 23px #d9d1d1);
+}
