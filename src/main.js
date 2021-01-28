@@ -27,6 +27,7 @@ import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 import './plugins/bootstrap-vue'
 import App from './App.vue'
 import router from './router'
+import './assets/tailwind.css'
 
 
 library.add(faBirthdayCake, faThumbtack, faAngleDoubleDown, faEnvelope, faMapMarked, faSignature, faShare, faCommentAlt, faSave, faPhone, faCheck, faShoppingBag, faDownload, faQuestionCircle, faGamepad, faAddressBook, faAngleDoubleRight, faRocket)
