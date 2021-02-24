@@ -99,6 +99,8 @@
           return "Marvin hatte vor ein paar Tagen Geburtstag"
         } else if (this.getBirthdayMatch() >= 200) {
           return "Es wird noch lange dauern bis Marvin Geburtstag hat (" + this.birthday + " Tage)"
+        } else {
+          return "Marvin hat in " + this.birthday + " Tagen Geburtstag"
         }
       },
       getBirthdayMatch() {
