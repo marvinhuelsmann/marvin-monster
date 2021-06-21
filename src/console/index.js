@@ -21,7 +21,7 @@ export default {
     mounted() {
         window.addEventListener("keypress", e => {
             if (!this.isEnterName) {
-                //Pressing the enter key
+                // Pressing the enter key
                 if (e.keyCode === 13) {
                     this.isEnterName = true
                 }
