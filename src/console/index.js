@@ -26,7 +26,7 @@ export default {
     },
     mounted() {
         console.log(commands)
-        window.addEventListener("keypress", e => {
+        window.addEventListener("keydown", e => {
             if (!this.isEnterName) {
                 // Pressing the enter key
                 if (e.key === "Enter") {
