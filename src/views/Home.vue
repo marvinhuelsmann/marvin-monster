@@ -3,6 +3,8 @@
     <div v-if="isEnterName" class="pl-3 pt-3">
     <p class="font-weight-normal">
       marvinhuelsmann@MacBook-Pro-von-{{name}} ~ % {{input}}
+      <br v-if="output"/>
+      {{output}}
     </p>
     <Draggable class="col-11">
       <template slot="header">
