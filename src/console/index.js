@@ -1,8 +1,12 @@
 import Draggable from '../components/Draggable.vue'
 
+//add your command
 const commands = [
     {input: "test", output: "testing, testing..."},
-    {input: "projects", output: "My Projects are on the marvhuelsmann.de Site"}
+    {input: "corona", output: "For the Covid 19 Pandemic here is an Virus on the Page!"},
+    {input: "help", output: "Watch on the GitHub Repo and spy the commands! (https://github.com/marvinhuelsmann/marvin-monster)"},
+    {input: "projects", output: "My Projects are on the marvhuelsmann.de Site"},
+    {input: "mh", output: "Ouh hello im Marvin Hülsmann"}
 ]
 
 export default {
@@ -25,8 +29,8 @@ export default {
         Draggable
     },
     mounted() {
-        console.log(commands)
         window.addEventListener("keypress", e => {
+          if (e.key === "Tab" || e.key === "Shift" || e.key === "Control") return;
             if (!this.isEnterName) {
                 // Pressing the enter key
                 if (e.key === "Enter") {

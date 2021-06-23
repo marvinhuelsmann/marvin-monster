@@ -2,7 +2,7 @@
   <div class="justify-center text-white">
     <div v-if="isEnterName" class="pl-3 pt-3">
     <p class="font-weight-normal">
-      marvinhuelsmann@MacBook-Pro-von-{{name}} ~ % {{input}}
+      marvinhuelsmann@MacBook-Pro-from-{{name}} ~ % {{input}}
       <br v-if="output"/>
       {{output}}
     </p>
