@@ -29,7 +29,7 @@ export default {
         Draggable
     },
     mounted() {
-        window.addEventListener("keypress", e => {
+        window.addEventListener("keydown", e => {
           if (e.key === "Tab" || e.key === "Shift" || e.key === "Control") return;
             if (!this.isEnterName) {
                 // Pressing the enter key
