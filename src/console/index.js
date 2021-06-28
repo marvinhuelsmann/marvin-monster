@@ -10,7 +10,10 @@ const commands = [
 ]
 
 //wrong keyboard keys
-const wrongKeyBoardBinds = [ 'Tab', 'Shift', 'Control', 'Alt', 'Meta', 'CapsLock']
+const wrongKeyBoardBinds = [
+    'Tab', 'Shift', 'Control', 'Alt', 'Meta', 'CapsLock',
+    'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Dead'
+]
 
 export default {
     name: 'Console',
@@ -33,7 +36,7 @@ export default {
     },
     mounted() {
         window.addEventListener("keydown", e => {
-          if (wrongKeyBoardBinds.includes(e.key)) return;
+            if (wrongKeyBoardBinds.includes(e.key)) return;
             if (!this.isEnterName) {
                 // Pressing the enter key
                 if (e.key === "Enter") {
@@ -50,9 +53,8 @@ export default {
                     let isFind = false;
                     for (let i = 0; i < commands.length; i++) {
                         if (commands[i].input === this.input) {
-                            isFind = true
                             this.output = commands[i].output
-                            console.log(commands[i].output)
+                            isFind = true
                         }
                     }
                     if (!isFind) {
