@@ -13,7 +13,7 @@ marvin.monster is a small and funny open source commandline for everyone.
 This is a [Vue.js](https://vuejs.org/) 2 project hosted by [Vercel](https://vercel.com/).
 
 # 👨🏼‍🦯 How to add a command
-Go into ```marvin-monster``` // ```src``` / ```Console``` / ```index.js```
+Go into ```marvin-monster``` // ```src``` / ```console``` / ```index.js```
 
 and add in the `commands` Array your command. 
 <br/>
