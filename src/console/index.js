@@ -7,7 +7,8 @@ const commands = [
     {input: "help", output: "Watch on the GitHub Repo and spy the commands! (https://github.com/marvinhuelsmann/marvin-monster)"},
     {input: "projects", output: "My Projects are on the marvhuelsmann.de Site"},
     {input: "mh", output: "Ouh hello im Marvin Hülsmann"},
-    {input: "rufusmai", output: "check this awesome site: https://rufusmai.com"}
+    {input: "rufusmai", output: "check this awesome site: https://rufusmai.com"},
+    {input: "dominiklippl", output: "check this awesome site: https://dominiklippl.de"}
 ]
 
 //wrong keyboard keys
