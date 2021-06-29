@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@babel/polyfill": "^7.11.5",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "^4.5.10",

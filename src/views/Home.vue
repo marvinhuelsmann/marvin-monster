@@ -18,6 +18,11 @@
         Please enter your username ~ % {{name}}
       </p>
     </div>
+    <div class="position-absolute icon">
+      <a class="icon" target="_blank" href="https://github.com/marvinhuelsmann/marvin-monster">
+      <fai :icon="['fab', 'github']" size="2x"/>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -29,5 +34,15 @@ export default ConsoleService;
 <style>
 body {
   background-color: #353545;
+}
+.icon {
+  color: white;
+  cursor: pointer;
+  bottom: 10px;
+  right: 10px;
+}
+.icon:hover {
+  transition: 0.3s;
+  color: #8f5ddb;
 }
 </style>
