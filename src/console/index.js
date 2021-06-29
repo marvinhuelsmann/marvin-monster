@@ -3,7 +3,7 @@ import Draggable from '../components/Draggable.vue'
 //add your command
 const commands = [
     {input: "test", output: "testing, testing..."},
-    {input: "corona", output: "For the Covid 19 Pandemic, one Virus on the Page!"},
+    {input: "corona", output: "For the Covid 19 Pandemic, one Virus is on the Page!"},
     {input: "help", output: "Watch on the GitHub Repo and spy the commands! (https://github.com/marvinhuelsmann/marvin-monster)"},
     {input: "projects", output: "My Projects are on the marvhuelsmann.de Site"},
     {input: "mh", output: "Ouh hello im Marvin Hülsmann"},
