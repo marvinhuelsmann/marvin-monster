@@ -26,9 +26,9 @@ export default {
                 movementX: 0,
                 movementY: 0
             },
-            isEnterName: false,
+            isEnterName: this.$store.state.username != null,
             output: "",
-            name: "",
+            name: this.$store.state.username == null ? '' : this.$store.state.username,
             input: ""
         }
     },
@@ -41,6 +41,7 @@ export default {
             if (!this.isEnterName) {
                 // Pressing the enter key
                 if (e.key === "Enter") {
+                    this.$store.commit('SET_USERNAME', this.name)
                     this.isEnterName = true
                     return;
                 }
@@ -68,5 +69,10 @@ export default {
 
         });
     },
-    methods: {}
+    methods: {
+        logout() {
+            this.$store.commit('REMOVE_USERNAME')
+            window.location.reload()
+        }
+    }
 }
