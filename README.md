@@ -15,6 +15,6 @@ This is a [Vue.js](https://vuejs.org/) 2 project hosted by [Vercel](https://verc
 # 👨🏼‍🦯 How to add a command
 Go into ```marvin-monster``` // ```src``` / ```console``` / ```index.js```
 
-and add in the `commands` Array your command. 
+and add your command in the `commands` Array. 
 <br/>
 Put in <strong>input</strong> your command name and in <strong>output</strong> your custom console output
