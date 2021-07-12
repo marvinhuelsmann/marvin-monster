@@ -8,7 +8,8 @@ const commands = [
     {input: "projects", output: "My Projects are on the marvhuelsmann.de Site"},
     {input: "mh", output: "Ouh hello im Marvin Hülsmann"},
     {input: "rufusmai", output: "check this awesome site: https://rufusmai.com"},
-    {input: "dominiklippl", output: "check this awesome site: https://dominiklippl.de"}
+    {input: "dominiklippl", output: "check this awesome site: https://dominiklippl.de"},
+    {input: "ObiiiTooo", output: "Der Aller echte hat dein Geld geklaut!"}
 ]
 
 //wrong keyboard keys
