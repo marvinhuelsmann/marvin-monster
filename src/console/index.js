@@ -10,7 +10,7 @@ const commands = [
     {input: "dominiklippl", output: "check this awesome site: https://dominiklippl.de"},
     {input: "ObiiiTooo", output: "Der Aller echte hat dein Geld geklaut!"},
     {input: "marvhuel", output: "check this awesome site: https://marvhuelsmann.com"},
-    {input: "IchBraucheNamen", output"check out my GitHub Profile: https://github.com/IChBRaucheNamen"}, 
+    {input: "IchBraucheNamen", output"check out my GitHub Profile: https://github.com/IChBRaucheNamen"}
 ]
 
 //wrong keyboard keys
